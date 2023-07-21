@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="./assets/animacao.svg" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+   
+    <title>Universe</title>
+</head>
+
+<body>
+    <header class="header_container flex">
+        <div class="header_content">
+            <div>
+                <a href="#">Universe</a>
+            </div>
+
+            <div class="flex">
+                <nav class="menu">
+                    <ul class="menu_list flex">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </nav>
+
+                <label class="switch">
+                    <input type="checkbox" checked onclick="changeTheme()">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+    </header>
+    <main id="home">
+        <section class="home_container">
+            <article class="home_content">
+                <h4>Welcome to the New Universe</h4>
+                <h1>Different worlds for differents people</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod error veniam in voluptatem magni
+                    quisquam</p>
+
+                <a class="btn" target="_blank" href="https://github.com/JuliaBernardess">Explore</a>
+            </article>
+            <article class="home_content">
+                <img class="home_content__img" src="./assets/animação2.svg" alt="desenho de foguete">
+            </article>
+        </section>
+
+        <section id="about" class="section_container">
+
+        </section>
+
+    </main>
+    <footer class="flex">
+        Feito por Júlia Bernardes - 2023
+    </footer>
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
